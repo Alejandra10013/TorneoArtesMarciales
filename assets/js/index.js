@@ -6,7 +6,7 @@ document.getElementById("btnRegistrar").addEventListener("click", () => {
     let nombre = document.getElementById("nombre");
     let raza = document.getElementById("raza");
     let preview = document.getElementById("preview");
-    let imgSrcBckg = previewElement.style.backgroundImage;
+    let imgSrcBckg = preview.style.backgroundImage;
     let imgSrc = imgSrcBckg.slice(5, imgSrcBckg.length - 2);
     let xp = document.getElementById("poderPelea");
 
@@ -34,7 +34,7 @@ document.getElementById("btnRegistrar").addEventListener("click", () => {
         nombre.selectedIndex = 0;
         raza.selectedIndex = 0;
         preview.style.backgroundImage = "none";
-        imgSrcBckg = previewElement.style.backgroundColor = "#f0f0f0";
+        imgSrcBckg = preview.style.backgroundColor = "#f0f0f0";
         xp.value = "";
 
         reloadTable();

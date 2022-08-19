@@ -1,4 +1,4 @@
-import Personaje from "./personaje.js"
+import Personaje from "./personaje.js";
 
 class Saiyajin extends Personaje {
     constructor(nombre, img, poder, raza) {

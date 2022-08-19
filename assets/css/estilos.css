@@ -35,11 +35,14 @@ body {
 }
 
 #Participantes div >div:hover {
-  box-shadow: 0px 1px 5px 1px;
+  box-shadow: 0px 1px 10px 1px;
+  background-color: rgb(0, 0, 0);
+  color: red;
 }
 
 .participante {
   max-width: 30%;
+  padding: 1em;
 }
 
 /* Modal */
